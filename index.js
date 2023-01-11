@@ -34,4 +34,18 @@ function appendCat(name)
     return newArray; 
  }
 
- 
+function removeLastCat()
+{
+    const newArray = cats.slice(0, cats.length-1);
+    return newArray;
+}
+
+function removeFirstCat()
+{
+    const newArray = cats.slice(1, cats.length);
+    return newArray;
+}
+
+
+removeFirstCat();
+console.log(cats);

@@ -22,3 +22,16 @@ function destructivelyRemoveFirstCat()
     cats.shift();
 }
 
+function appendCat(name)
+{
+    const newArray = [...cats, name];
+    return newArray;
+}
+
+ function prependCat(name)
+ {
+    const newArray=[name, ...cats];
+    return newArray; 
+ }
+
+ 

@@ -12,3 +12,13 @@ function destructivelyPrependCat(name)
     cats.unshift(name);
 }
 
+function destructivelyRemoveLastCat()
+{
+    cats.pop();
+}
+
+function destructivelyRemoveFirstCat()
+{
+    cats.shift();
+}
+
